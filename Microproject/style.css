@@ -1,11 +1,11 @@
 
 body{
-    font-family: "Inter";
+    font-family: sans-serif;
     margin: 0%;
     padding: 0%;
     font-weight: normal;
-    background-color: #2a333e;
-    color: #fff6f6;
+    background-color: #1b1b1c;
+    color: #dedede;
     line-height: 2em;
     font-size: larger;
     padding-top: 4rem;
@@ -17,7 +17,8 @@ body{
 }
 
 .topnav{
-    background-color: #212836;
+    background: rgb(36,36,36);
+    background: radial-gradient(circle, rgba(36,36,36,1) 35%, rgba(15,15,15,1) 92%);
     text-decoration: none;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
@@ -51,7 +52,7 @@ ul li a{
 }
 
 ul li a:hover{
-    background-color: #4db7ef;
+    background-color: #6c6c6c80;
     border-radius: 0.4em;
 }
 
@@ -62,18 +63,18 @@ ul li a:hover{
 
 .topbar{
     padding: 0.1rem;
-    background-color: #3a4757;
+    background-color: #262626;
     text-align: center;
 }
 
 .footer{
-    background-color: #7ab4ff;
+    background-color: #222225;
     padding: 5em;
     bottom: 0;
 }
 
 #active{
-    background-color: #4db7ef;
+    background-color: #6d7079;
     border-radius: 0.4em;
 }
 
@@ -82,7 +83,7 @@ ul li a:hover{
 }
 
 .linkInText{
-    color: #7ab4ff;
+    color: #5d5d5d;
 }
 
 .floatingImage{
