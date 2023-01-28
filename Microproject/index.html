@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
     <title>Blender</title>
-    <script src="https://kit.fontawesome.com/2c0a91e0aa.js" crossorigin="anonymous"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/2c0a91e0aa.js"></script>
 </head>
 <body>
 
 <section>
     <ul class="topnav">
         <li>
-            <a class="itemStyle" id="active" href="index.html">Tutorial</a>
+            <a class="itemStyle" href="index.html" id="active">Tutorial</a>
         </li>
         <li>
             <a class="itemStyle" href="">Contact</a>
@@ -31,7 +31,6 @@
 </section>
 
 
-
 <section>
     <h1 class="header">What even is Blender?</h1>
     <ul>
@@ -42,53 +41,96 @@
             <p><i class="fa-solid fa-code"></i> It was programmed using C,C++ and Python</p>
         </li>
         <li>
-            <p><i class="fa-solid fa-dollar-sign"></i> Blender's vision is that anyone can get a decent 3d modeling program without spending a lot of money</p>
+            <p><i class="fa-solid fa-dollar-sign"></i> Blender's vision is that anyone can get a decent 3d modeling
+                program without spending a lot of money</p>
         </li>
     </ul>
 
     <h1 class="header">How do I use the General Viewport</h1>
     <ul>
         <li>
-            <p><i class="fa-solid fa-1"></i>  By pressing the mouse wheel you rotate around the center of the viewport</p>
+            <p><i class="fa-solid fa-1"></i> By pressing the mouse wheel you rotate around the center of the viewport
+            </p>
         </li>
         <li>
-            <p><i class="fa-solid fa-2"></i>  Use Shift and press the mouse wheel to move in the viewport</p>
+            <p><i class="fa-solid fa-2"></i> Use Shift and press the mouse wheel to move in the viewport</p>
         </li>
     </ul>
     <h1 class="header">
         How is Blender structured?</h1>
-    <img class="floatingImage" src="Image/Bild1.png" alt="Image of all Axis">
 
-    <p class="fitImageSize">
-        The red line is the X axis
-    </p>
-    <p class="fitImageSize">The green line is the Y axis
-    </p>
-    <p class="fitImageSize">There is also a blue line on the Z axis. It runs from bottom to top</p>
+    <div>
+        <p>
+            The red line is the X axis.
+            The green line is the Y axis.
+            There is also a blue line on the Z axis. It runs from bottom to top.</p>
+        <div>
+            <img alt="Image of all Axis" class="floatingImage" src="Image/Bild1.png">
+        </div>
+    </div>
+    <p>
+        In Blender one often speaks of verticies, edges and also faces
+        Faces are rough surfaces
+        Verticies are small dots at corners of faces
+        Edges are lines on the side of the faces (edges)</p>
 
-
-    <h1 class="header">How is a 3d Model Structured</h1>
-
-    <p>In Blender one often speaks of verticies, edges and also faces</p>
-
-    <div class="flexImages">
-        <img class="sideBarIMG" src="Image/Bild3.png" alt="Image of Face">
-        <img class="sideBarIMG" src="Image/Bild4.png" alt="Image of Verticie">
-        <img class="sideBarIMG" src="Image/Bild5.png" alt="Image of Edge">
+    <div>
+        <img alt="Image of Vertices" src="Image/Bild3.png">
+        <img alt="Image of Edges" src="Image/Bild4.png">
+        <img alt="Image of Faces" src="Image/Bild5.png">
     </div>
 
-    <p class="fitFlex">Faces are rough surfaces</p>
+    <h1 class="header">What do these parameters mean?</h1>
 
-    <p class="fitFlex">Verticies are small dots at corners of faces</p>
+    <p>&lt;axis&gt; This is an optional parameter that specifies the axis. These are x, y and z. If released, it
+        performs the action on each axis.</p>
+    <p>&lt;number&gt;: This is an optional parameter that specifies degrees for rotations, for example. The number can
+        also be determined by mouse movements.</p>
 
-    <p class="fitFlex">Edges are lines on the side of the faces</p>
+    <h1 class="header">The most important keybinds!</h1>
+    <p>The simplest but also the most important key combinations are:</p>
+    <p>S &lt;number> (changes the size of an object)</p>
+    <p>R &lt;axis> &lt;number> (rotates an object)</p>
+    <p>G &lt;axis> &lt;number> (moves an object)</p>
+    <p>TAB (switches to edit mode)</p>
+    <p>E &lt;axis> &lt;number> (Extrudes an object. Also called expand)</p>
+    <p>Z (Opens a menu for changing the shading)</p>
+    <p>Shift + A (Opens the Add Menu and lets the user select one of the simple default items)</p>
+
+    <h1 class="header">Edit Mode</h1>
+    <p>This mode is where you spend most of your time!</p>
+    <p>Any of the previous key combinations also work in this mode</p>
+    <p>In this mode, there are three icons on the top left, they are Verticie Select, Edge Select and Face Select.</p>
+    <img src="Image/EditMode.png" alt="Image of Edite Mode">
+
+    <h1 class="header">Scale</h1>
+    <video width="500" src="Image/media1.mp4" controls></video>
+    <video width="500" src="Image/media2.mp4" controls></video>
+
+    <h1 class="header">Rotation</h1>
+    <video width="500" src="Image/media3.mp4" controls></video>
+    <video width="500" src="Image/media4.mp4" controls></video>
+
+    <h1 class="header">Move</h1>
+    <video width="500" src="Image/media5.mp4" controls></video>
+    <video width="500" src="Image/media6.mp4" controls></video>
+
+    <h1 class="header">Edit Mode</h1>
+    <video width="500" src="Image/media7.mp4" controls></video>
+
+    <h1 class="header">Extrude</h1>
+    <video width="500" src="Image/media8.mp4" controls></video>
+
+    <h1 class="header">Shading</h1>
+    <video width="500" src="Image/media9.mp4" controls></video>
+
+    <h1 class="header">Add Menu</h1>
+    <video width="500" src="Image/media10.mp4" controls></video>
 
 </section>
 
 <section class="footer">
 
 </section>
-
-
 </body>
 </html>

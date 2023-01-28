@@ -9,6 +9,7 @@ body{
     line-height: 2em;
     font-size: larger;
     padding-top: 4rem;
+    text-align: center;
 }
 
 .default{
@@ -34,7 +35,8 @@ ul {
 }
 
 section > p{
-    padding-left: 20em;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 li{
@@ -67,6 +69,7 @@ ul li a:hover{
 .footer{
     background-color: #7ab4ff;
     padding: 5em;
+    bottom: 0;
 }
 
 #active{
@@ -83,10 +86,8 @@ ul li a:hover{
 }
 
 .floatingImage{
-    float: right;
     width: 25em;
     height: 15em;
-    padding-right: 10em;
 }
 
 .fitImageSize{
@@ -97,15 +98,4 @@ ul li a:hover{
     float: right;
     width: 10em;
     height: 10em;
-}
-
-.flexImages{
-    display: flex;
-    flex-direction: column;
-    float:right;
-    padding-right: 10rem
-}
-
-.fitFlex{
-    line-height: 8em;
 }
