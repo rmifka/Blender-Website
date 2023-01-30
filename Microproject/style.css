@@ -1,4 +1,8 @@
 
+:root {
+    --hover-color: #4f88ff;
+}
+
 body{
     font-family: sans-serif;
     margin: 0%;
@@ -27,6 +31,7 @@ body{
     top: 0;
     width: 100%;
     height: 3rem;
+    z-index: 3;
 }
 
 ul {
@@ -77,6 +82,7 @@ ul li a:hover{
 #active{
     background-color: #6d7079;
     border-radius: 0.4em;
+    box-shadow: #4f88ff 0 0 0.5em;
 }
 
 .header{
@@ -90,6 +96,22 @@ ul li a:hover{
 .floatingImage{
     width: 25em;
     height: 15em;
+}
+
+img{
+    transition: all 0.5s ease;
+}
+
+video{
+    transition: all 0.5s ease;
+}
+
+img:hover{
+    box-shadow: #4f88ff 0 0 1.5em;
+}
+
+video:hover{
+    box-shadow: #4f88ff 0 0 2.5em;
 }
 
 .fitImageSize{
