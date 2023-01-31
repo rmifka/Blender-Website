@@ -115,6 +115,7 @@ ul li a:hover{
 
 .btn > p{
     transform: rotate(90deg);
+    font-weight: bold;
 }
 
 .floatingImage{
