@@ -110,15 +110,15 @@ ul li a:hover{
 }
 
 img{
-    transition: all 0.5s ease;
+    transition: all 0.314159265359s ease;
 }
 
 video{
-    transition: all 0.5s ease;
+    transition: all 0.314159265359s ease;
 }
 
 img:hover{
-    box-shadow: #4f88ff 0 0 1.5em;
+    box-shadow: #4f88ff 0 0 2.5em;
 }
 
 video:hover{
